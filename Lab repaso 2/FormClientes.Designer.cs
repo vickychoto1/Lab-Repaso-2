@@ -45,7 +45,8 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(328, 279);
+            this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Location = new System.Drawing.Point(588, 269);
             this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(130, 41);
@@ -67,10 +68,11 @@
             // 
             // btnAlquiler
             // 
-            this.btnAlquiler.Location = new System.Drawing.Point(456, 378);
+            this.btnAlquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlquiler.Location = new System.Drawing.Point(84, 344);
             this.btnAlquiler.Margin = new System.Windows.Forms.Padding(2);
             this.btnAlquiler.Name = "btnAlquiler";
-            this.btnAlquiler.Size = new System.Drawing.Size(111, 33);
+            this.btnAlquiler.Size = new System.Drawing.Size(111, 61);
             this.btnAlquiler.TabIndex = 21;
             this.btnAlquiler.Text = "Ingresar Alquiler";
             this.btnAlquiler.UseVisualStyleBackColor = true;
@@ -78,10 +80,11 @@
             // 
             // btnVehiculo
             // 
-            this.btnVehiculo.Location = new System.Drawing.Point(328, 378);
+            this.btnVehiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVehiculo.Location = new System.Drawing.Point(84, 279);
             this.btnVehiculo.Margin = new System.Windows.Forms.Padding(2);
             this.btnVehiculo.Name = "btnVehiculo";
-            this.btnVehiculo.Size = new System.Drawing.Size(111, 33);
+            this.btnVehiculo.Size = new System.Drawing.Size(111, 61);
             this.btnVehiculo.TabIndex = 20;
             this.btnVehiculo.Text = "Ingresar Vehiculos";
             this.btnVehiculo.UseVisualStyleBackColor = true;
@@ -89,6 +92,7 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Location = new System.Drawing.Point(84, 210);
             this.btnGuardar.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardar.Name = "btnGuardar";
@@ -100,7 +104,8 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(623, 375);
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Location = new System.Drawing.Point(624, 356);
             this.btnCerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(94, 37);
@@ -111,55 +116,61 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(139, 178);
+            this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.Location = new System.Drawing.Point(159, 181);
             this.txtDireccion.Margin = new System.Windows.Forms.Padding(2);
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(142, 20);
+            this.txtDireccion.Size = new System.Drawing.Size(142, 22);
             this.txtDireccion.TabIndex = 17;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(82, 181);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(73, 16);
             this.label3.TabIndex = 16;
             this.label3.Text = "Direccion";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(139, 113);
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(148, 113);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(142, 20);
+            this.txtNombre.Size = new System.Drawing.Size(142, 22);
             this.txtNombre.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(82, 113);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(62, 16);
             this.label2.TabIndex = 14;
             this.label2.Text = "Nombre";
             // 
             // txtNit
             // 
-            this.txtNit.Location = new System.Drawing.Point(139, 54);
+            this.txtNit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNit.Location = new System.Drawing.Point(148, 54);
             this.txtNit.Margin = new System.Windows.Forms.Padding(2);
             this.txtNit.Name = "txtNit";
-            this.txtNit.Size = new System.Drawing.Size(142, 20);
+            this.txtNit.Size = new System.Drawing.Size(142, 22);
             this.txtNit.TabIndex = 13;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(82, 54);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 13);
+            this.label1.Size = new System.Drawing.Size(32, 16);
             this.label1.TabIndex = 12;
             this.label1.Text = "NIT";
             // 
@@ -167,7 +178,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 415);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnAlquiler);
